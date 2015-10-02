@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="pref_key_gatekeeperurl"
+        android:summary="@string/preferences_gatekeeperurl_summary"
+        android:title="@string/preferences_gatekeeperurl_title"
+        android:defaultValue="https://sandbox.fullarmorhapi.com"/>
+</PreferenceScreen>

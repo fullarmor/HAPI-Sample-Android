@@ -1,0 +1,30 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context="com.fullarmor.hapi.UserInfoActivity">
+    <TableRow android:padding="5dip">
+        <TextView android:text="@string/userinfo_displayname_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"/>
+        <TextView android:paddingLeft="5dip" android:text=""
+                android:id="@+id/userinfo_displayname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"/>
+    </TableRow>
+    <TableRow android:padding="5dip">
+        <TextView android:text="@string/userinfo_role_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"/>
+        <TextView android:paddingLeft="5dip" android:text=""
+                android:id="@+id/userinfo_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"/>
+    </TableRow>
+</TableLayout>

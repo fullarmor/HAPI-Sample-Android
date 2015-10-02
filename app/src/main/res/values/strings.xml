@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">HAPI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_info">User Information</string>
+    <string name="button_login">Login</string>
+    <string name="action_login">Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_userinfo">UserInfo</string>
+    // settings
+    <string name="preferences_file">com.fullarmor.hapi.preferences</string>
+    <string name="preferences_hapiToken">hapiToken</string>
+    <string name="preferences_displayName">displayName</string>
+    <string name="preferences_role">role</string>
+    <string name="preferences_gatekeeperurl_summary">The URL of the HAPI Gatekeeper.</string>
+    <string name="preferences_gatekeeperurl_title">Gatekeeper Url</string>
+    <string name="preferences_gatekeeper">gatekeeper</string>
+    <string name="preferences_username">username</string>
+    <string name="preferences_password">password</string>
+    <string name="gatekeeperBaseUrl">gatekeeperBaseUrl</string>
+    <string name="hapiToken">hapiToken</string>
+    <string name="displayName">displayName</string>
+    <integer name="login">222</integer>
+    <string name="title_activity_folder_enum">HAPI</string>
+    <string name="title_activity_file_properties">File Properties</string>
+    <string name="userinfo_displayname_label">User Name: </string>
+    <string name="userinfo_role_label">Role: </string>
+    <string name="userinfo_not_available">User information is not available.  Please login again.</string>
+    <string name="role_unknown">Unknown</string>
+    <string name="role_user">HAPI User</string>
+    <string name="role_admin">HAPI Administrator</string>
+    <string name="role_readonly_user">Read-Only User</string>
+    <string name="role_readonly_admin">Read-Only Administrator</string>
+    <string name="role_system">System</string>
+    <string name="role_none">None</string>
+    <string name="fileinfo_fileIdentifier">Path: </string>
+    <string name="fileinfo_size">Size: </string>
+    <string name="fileinfo_whenmodified">When Modified: </string>
+    <string name="extra_fileIdentifier">fileIdentifier</string>
+    <string name="extra_fileType">fileType</string>
+    <string name="extra_size">size</string>
+    <string name="extra_whenModified">whenModified</string>
+    <string name="title_activity_select_file">Select File</string>
+    <string name="calling_activity_folderenum">Caller_FolderEnum</string>
+    <string name="calling_activity_userinfo">Caller_UserInfo</string>
+
+    <string name="enterFileName">Enter file name:</string>
+    <string name="uploadButtonText">Upload</string>
+    <string name="cancelButtonText">Cancel</string>
+    <string name="cannotSaveFileMessage">Cannot save file</string>
+    <string name="fileNameFirstMessage">Please enter the file name first</string>
+    <string name="okButtonText">OK</string>
+    <string name="loadButtonText">Load</string>
+    <string name="accessDenied">Access denied</string>
+    <string name="missingFile">No such file</string>
+    <string name="information">Information</string>
+    <string name="error_generic_login_failed">Login Failed. ResponseCode=</string>
+    <string name="error_internal_error">An internal error occurred.</string>
+    <string name="error_null_request">The request cannot be null.</string>
+    <string name="error_username_required">The username must be specified.</string>
+    <string name="error_password_required">The password must be specified.</string>
+    <string name="error_fileidentifier_required">The file identifier must be specified.</string>
+</resources>

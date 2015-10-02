@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.fullarmor.hapi.FilePropertiesActivity">
+
+    <TableLayout android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView android:text="@string/fileinfo_fileIdentifier" android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+    <TextView android:text="" android:id="@+id/fileinfo_FileIdentifier" android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView android:text="@string/fileinfo_size" android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+    <TextView android:text="" android:id="@+id/fileinfo_size" android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+        </TableRow>
+        <TableRow>
+    <TextView android:text="@string/fileinfo_whenmodified" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView android:text="" android:id="@+id/fileinfo_whenmodified" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
